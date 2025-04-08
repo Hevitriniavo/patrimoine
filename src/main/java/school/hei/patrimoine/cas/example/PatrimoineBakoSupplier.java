@@ -12,6 +12,7 @@ import java.util.Set;
 import java.util.function.Supplier;
 
 import static school.hei.patrimoine.modele.Argent.ariary;
+import static school.hei.patrimoine.modele.Devise.MGA;
 
 public class PatrimoineBakoSupplier implements Supplier<Patrimoine> {
 
@@ -73,7 +74,7 @@ public class PatrimoineBakoSupplier implements Supplier<Patrimoine> {
 
         return Patrimoine.of(
                 "Patrimoine de Bako",
-                ariary(0).devise(),
+                MGA,
                 dateDebut,
                 bako,
                 Set.of(

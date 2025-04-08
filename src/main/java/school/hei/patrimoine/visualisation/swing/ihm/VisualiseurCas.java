@@ -16,7 +16,8 @@ public class VisualiseurCas {
                     new EtudiantPireCas().patrimoine(),
                     new PatrimoineRicheSupplier().get(),
                     new PatrimoineCresusSupplier().get(),
-                    new PatrimoineBakoSupplier().get()
+                    new PatrimoineBakoSupplier().get(),
+                    new PatrimoineTianaSupplier().get()
                 )
             ));
   }
